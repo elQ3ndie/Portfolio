@@ -32,20 +32,15 @@ const About = () => {
           >
             <h2 className='h2 text-accent'>About me.</h2>
             <h3 className='h3 mb-4'>
-              I'm a Freelance Front-end Developer with over 5 years of experience.
+              Frontend Developer and Video Editor
             </h3>
             <p className='mb-6'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing
-              elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-              ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+            I'm a versatile creative professional, skilled in web
+             development and video editing. I specialize in crafting
+              immersive websites and compelling video narratives to
+               engage and inspire. Let's collaborate to bring your
+               digital vision to life.
             </p>
-            <div className='flex gap-x-8 items-center'>
-              <button className='btn btn-lg'>Contact me</button>
-              <a href='#' className='text-gradient btn-link'>
-                My Portfolio
-              </a>
-            </div>
           </motion.div>
         </div>
       </div>

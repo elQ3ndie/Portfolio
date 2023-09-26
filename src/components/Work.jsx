@@ -22,15 +22,12 @@ const Work = () => {
             {/* text */}
             <div>
               <h2 className='h2 leading-tight text-accent'>
-                My Latest <br />
-                Work.
+                Projects
               </h2>
               <p className='max-w-sm mb-16'>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Accusantium, autem, consequuntur corporis delectus doloribus
-                doloremque dolor
+              Take a look at a selection of my recent projects
+              that highlight my skills in web development and video editing
               </p>
-              <button className='btn btn-sm'>View all projects</button>
             </div>
             {/* image */}
             <div className='group relative overflow-hidden border-2
@@ -40,21 +37,23 @@ const Work = () => {
               <div className='group-hover:bg-black/70 w-full h-full absolute
               z-40 transition-all duration-300'></div>
               {/* img */}
-              <img className='group-hover:scale-125 transition-all duration-500' src={Img1} alt=''/>
-              {/* pretitle */}
-              <div className='absolute -bottom-full left-12
-              group-hover:bottom-24  transition-all duration-500 z-50'
-              >
-                <span className='text-gradient'>
-                  Frontend Development
-                </span>
-              </div>
-              {/* title */}
-              <div className='absolute -bottom-full left-12
-              group-hover:bottom-14  transition-all duration-700 z-50'
-              >
-                <span className='text-3xl text-white'>Project Title</span>
-              </div>
+              <a href='https://frontend-stage2-orpin.vercel.app/' target="_blank">
+                <img className='group-hover:scale-125 transition-all duration-500' src={Img1} alt=''/>
+                {/* pretitle */}
+                <div className='absolute -bottom-full left-12
+                group-hover:bottom-24  transition-all duration-500 z-50'
+                >
+                  <span className='text-gradient'>
+                    Web Development
+                  </span>
+                </div>
+                {/* title */}
+                <div className='absolute -bottom-full left-12
+                group-hover:bottom-14  transition-all duration-700 z-50'
+                >
+                  <span className='text-3xl text-white'>Movie Catalog</span>
+                </div>
+              </a>
             </div>
           </motion.div>
 
@@ -73,21 +72,24 @@ const Work = () => {
               <div className='group-hover:bg-black/70 w-full h-full absolute
               z-40 transition-all duration-300'></div>
               {/* img */}
-              <img className='group-hover:scale-125 transition-all duration-500' src={Img2} alt=''/>
-              {/* pretitle */}
-              <div className='absolute -bottom-full left-12
-              group-hover:bottom-24  transition-all duration-500 z-50'
-              >
-                <span className='text-gradient'>
-                  Frontend Development
-                </span>
-              </div>
-              {/* title */}
-              <div className='absolute -bottom-full left-12
-              group-hover:bottom-14  transition-all duration-700 z-50'
-              >
-                <span className='text-3xl text-white'>Project Title</span>
-              </div>
+              <a target="_blank" href='https://drive.google.com/file/d/1BBJa2tEu0qkLrsxVO09jdgS6IIFQJ9_U/view?usp=drive_link'>
+                <img className='group-hover:scale-125 transition-all duration-500' src={Img2} alt=''/>
+                {/* pretitle */}
+                <div className='absolute -bottom-full left-12
+                group-hover:bottom-24  transition-all duration-500 z-50'
+                >
+                  <span className='text-gradient'>
+                    Video Editing
+                  </span>
+                </div>
+                {/* title */}
+                <div className='absolute -bottom-full left-12
+                group-hover:bottom-14  transition-all duration-700 z-50'
+                >
+                  <span className='text-3xl text-white'>Trailer</span>
+                </div>
+              </a>
+
             </div>
             {/* image */}
             <div className='group relative overflow-hidden border-2
@@ -97,21 +99,23 @@ const Work = () => {
               <div className='group-hover:bg-black/70 w-full h-full absolute
               z-40 transition-all duration-300'></div>
               {/* img */}
-              <img className='group-hover:scale-125 transition-all duration-500' src={Img3} alt=''/>
-              {/* pretitle */}
-              <div className='absolute -bottom-full left-12
-              group-hover:bottom-24  transition-all duration-500 z-50'
-              >
-                <span className='text-gradient'>
-                  Frontend Development
-                </span>
-              </div>
-              {/* title */}
-              <div className='absolute -bottom-full left-12
-              group-hover:bottom-14  transition-all duration-700 z-50'
-              >
-                <span className='text-3xl text-white'>Project Title</span>
-              </div>
+              <a href='https://task3-frontend.vercel.app/' target="_blank">
+                <img className='group-hover:scale-125 transition-all duration-500' src={Img3} alt=''/>
+                {/* pretitle */}
+                <div className='absolute -bottom-full left-12
+                group-hover:bottom-24  transition-all duration-500 z-50'
+                >
+                  <span className='text-gradient'>
+                    Frontend Development
+                  </span>
+                </div>
+                {/* title */}
+                <div className='absolute -bottom-full left-12
+                group-hover:bottom-14  transition-all duration-700 z-50'
+                >
+                  <span className='text-3xl text-white'>Image Gallery</span>
+                </div>
+              </a>
             </div>
           </motion.div>
 

@@ -4,6 +4,7 @@ import { FaGithub, FaTwitter, FaDiscord } from 'react-icons/fa'
 import { TypeAnimation } from 'react-type-animation'
 import { motion } from 'framer-motion'
 import { fadeIn } from '../variants'
+import { Link } from 'react-scroll';
 
 const Banner = () => {
   return (
@@ -51,26 +52,16 @@ const Banner = () => {
             whileInView={'show'}
             viewport={{ once: false, amount: 0.7 }}
             className='mb-8 max-w-lg mx-auto lg:mx-0'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing
-              elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-              ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+              Welcome to my portfolio! I'm a versatile creative who 
+              thrives at the intersection of web development and video editing. 
+              With a passion for crafting immersive digital experiences and telling 
+              compelling visual stories, I bring a unique blend of technical expertise 
+              and creative flair to every project.
             </motion.p>
+
 
             <motion.div 
             variants={fadeIn('up', 0.6)} 
-            initial='hidden' 
-            whileInView={'show'}
-            viewport={{ once: false, amount: 0.7 }}
-            className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
-              <button className='btn btn-lg'> Contact me</button>
-              <a href='#' className='text-gradient btn-link'>
-                My Portfolio
-              </a>
-            </motion.div>
-
-            <motion.div 
-            variants={fadeIn('up', 0.7)} 
             initial='hidden' 
             whileInView={'show'}
             viewport={{ once: false, amount: 0.7 }}

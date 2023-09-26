@@ -6,24 +6,21 @@ import { fadeIn } from '../variants';
 const services = [
   {
     name: 'Frontend Development',
-    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim',
-    link:'Learn more'
+    description: 'I create user-friendly and visually appealing websites that engage your audience.',
+  },
+  {
+    name: 'Web Performance Optimization',
+    description: 'I optimize web pages for speed and performance, ensuring quick load times and smooth user interactions.',
   },
   {
     name: 'Video Editing',
-    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim',
-    link:'Learn more'
+    description: 'I transform raw footage into captivating narratives, bringing stories to life through visuals and sound.',
   },
   {
-    name: 'Frontend Development',
-    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim',
-    link:'Learn more'
+    name: 'Video Marketing Campaigns',
+    description: 'I develop and execute video marketing strategies to enhance your online presence and engagement.',
   },
-  {
-    name: 'Frontend Development',
-    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim',
-    link:'Learn more'
-  },
+
 ]
 
 const Services = () => {
@@ -42,9 +39,8 @@ const Services = () => {
             > 
               <h2 className='h2 text-accent mb-6'>What I Do</h2>
               <h3 className='h3 max-w-[455px] mb-16'>
-                I'm a Freelance Front-end Developer with over 5 years of experience.
+              I create stunning websites and captivating video content
               </h3>
-              <button className='btn btn-sm'>See my work</button>
            </motion.div>
 
           {/* services */}
@@ -73,12 +69,6 @@ const Services = () => {
                     <p className='font-secondary leading-tight'>
                       {description}
                     </p>
-                  </div>
-                  <div className='flex flex-col flex-1 items-end'>
-                    <a href='#' className='btn w-9 h-9 mb-[42px] flex justify-center items-center'>
-                      <BsArrowUpRight />
-                    </a>
-                    <a href='#' className='text-gradient text-sm'>{link}</a>
                   </div>
                 </div>
                 )
